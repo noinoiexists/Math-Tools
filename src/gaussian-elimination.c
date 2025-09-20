@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <limits.h>
-#include "gaussian-elimination.h"
+#include "../includes/gaussian-elimination.h"
 
 void swap_rows(size_t n, double A[n][n+1], size_t row1, size_t row2);
 
